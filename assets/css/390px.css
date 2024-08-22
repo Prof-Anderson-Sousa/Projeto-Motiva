@@ -1,0 +1,33 @@
+@media (max-width: 390px) {
+.header {
+    background-color: #00a859;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 330px;
+}
+.container-des {
+    width: 340px;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 387px;
+}
+.content-p {
+    width: 300px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.text-footer {
+    font-size: 14px;
+}
+
+.contact-section-school {
+    margin-left: 0px;
+}
+}

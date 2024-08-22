@@ -1,0 +1,18 @@
+.projeto-motiva {
+    text-align: justify;
+    margin: 0 auto;
+    width: 85%;
+    line-height: 1.6;
+}
+
+.projeto-motiva h1 {
+    color: #00a859;
+}
+
+.projeto-motiva h2 {
+    color: #00a859;
+}
+
+.projeto-motiva p {
+    font-size: 18px;
+}

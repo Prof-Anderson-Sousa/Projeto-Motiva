@@ -1,0 +1,101 @@
+@media (max-width: 800px) {
+    nav ul li {
+      display: none;
+    }
+
+    .menu-burguer {
+        display: block;
+        margin-right: 10px;
+        width: 40px;
+    }
+
+    .logo img {
+        margin-left: 10px;
+    }
+
+    .program-container {
+        max-width: 700px;
+    }
+
+    .container-des {
+        max-width: 700px;
+    }
+
+    .container-icons {
+        margin: 50px 10px;
+  }
+
+  .image-section img {
+    margin-bottom: -143px;
+    max-width: 200px;
+    height: auto;
+}
+
+.content-section {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.stats {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: -10px;
+}
+
+.header {
+    background-color: #00a859;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    /* Remova a largura fixa */
+    /* width: 700px; */
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Centralize o conteúdo */
+}
+
+.contact-section-school {
+    background-color: #fff;
+    color: #000;
+    /* padding: 0px; */
+    border-radius: 5px;
+    width: 400px;
+    position: absolute;
+    top: 50px;
+    position: relative;
+    z-index: 5;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.linha-horizontal {
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+    width: 70%;
+    margin-left: auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.card {
+    width: 380px;
+    height: 200px;
+    background-color: #00a859;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    gap: 10px;
+}
+
+}

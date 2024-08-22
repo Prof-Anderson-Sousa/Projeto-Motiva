@@ -1,0 +1,14 @@
+@media (max-width: 360px) {
+    .slide-text {
+       font-size: 0.9em;
+       width: 75%;
+    }
+
+    .header {
+        width: 300px;
+    }
+
+    .stats {
+        width: 300px;
+    }
+}

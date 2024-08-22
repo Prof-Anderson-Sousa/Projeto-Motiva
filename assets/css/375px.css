@@ -1,0 +1,64 @@
+@media (max-width: 375px) {
+    .card {
+        width: 90%;
+        background-color: #00a859;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .container-des {
+        width: 300px;
+        text-align: justify;
+    }
+
+    .content-section h2 {
+        font-size: 1.2em;
+        margin-left: -38px;
+    }
+
+    .content-p {
+        width: 300px;
+        text-align: justify;
+        margin-top: 0;
+        margin-left: -40px;
+        padding-bottom: 10px;
+    }
+
+    .stats {
+        margin-left: -49px;
+        gap: 30px;
+    }
+
+    .stat-item {
+        width: 200px;
+    }
+
+    .op-h3 {
+        font-size: 16px;
+    }
+
+    .op-p {
+        font-size: 10px;
+    }
+
+    .contact-section-school {
+        left: -18px;
+        width: 300px;
+    }
+
+    .header {
+        background-color: #00a859;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        width: 315px;
+    }
+
+    .h1-top {
+        font-size: 23px;
+    }
+
+    .item {
+        width: 350px;
+    }
+}

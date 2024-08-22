@@ -1,0 +1,86 @@
+@media (max-width: 428px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header {
+        width: 370px;
+    }
+
+    .slide-text h2 {
+        font-size: 1em;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .balao2 {
+        width: 95%;
+    }
+
+    .container-des {
+        width: 85%;
+    }
+
+    .container-icons {
+        flex-wrap: wrap;
+    }
+
+    .container-school {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .container-school {
+        border-top-left-radius: 0px;
+    }
+
+    .image-section img {
+       display: none;
+    }
+
+    .content-section {
+        width: 380px;
+    }
+
+    .stats {
+        padding-top: 10px;
+        width: 400px;
+    }
+
+    .content-p {
+        text-align: justify;
+        width: 335px;
+    }
+
+    .contact-section-school {
+        width: 380px;
+        margin-left: 10px;
+    }
+
+    .horarios p {
+        font-size: 10px;
+    }
+
+    .linha-horizontal {
+        width: 85%;
+    }
+
+    .informacoes p {
+       font-size: 10px;
+       text-align: justify;
+    }
+
+    .footer-content {
+        gap: 20px;
+    }
+
+    .horarios h3 {
+        font-size: 12px;
+        width: 200px;
+    }
+}

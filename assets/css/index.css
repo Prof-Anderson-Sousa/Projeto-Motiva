@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+ul {
+  padding-left: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f2f2f2;
+}
+
+.marquee {
+  white-space: nowrap; /* Impede quebra de linha */
+}
+
+.marquee p {
+  display: inline-block;
+  padding-left: 25%; /* Inicialmente posiciona o texto fora da div */
+  animation: marquee 15s linear infinite; /* Aplica a animação */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%); /* Começa fora da direita */
+  }
+  100% {
+    transform: translateX(-100%); /* Termina fora da esquerda */
+  }
+}
+
+.h1-top {
+  text-align: center;
+  color: #00a859;
+}
+
+.containerblur {
+  overflow: hidden;
+}
+
+.top-bar {
+    background-color: #00a859;
+    color: white;
+    text-align: right;
+    padding: 0px 10px;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.header-main {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 9999;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #00a859;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease, transform 0.3s ease;
+}
+
+.menu-burguer {
+  display: none;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+.card {
+    width: 550px;
+    height: 250px;
+    background-color: #00a859;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+  .card h3 {
+    margin-top: 0;
+  }
+
+  .card p {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 768px) {
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+
+  .container {
+    margin: 0px 0 40px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 20px;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .item {
+    cursor: pointer;
+    background-color: #00a859;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .item:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay h3 {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .program-container {
+    max-width: 795px;
+    margin: 35px auto;
+    padding: 20px;
+  }
+
+  .trabalhador {
+    height: 500px;
+    width: 300px;
+  }
+
+  .header {
+    background-color: #00a859;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 800px;
+  }
+
+  .header h1 {
+    margin: 0;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .content img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .content-text {
+    flex-grow: 1;
+  }
+
+  .content-text h2 {
+    margin-top: 0;
+  }
+
+  .historical,
+  .objective {
+    margin-bottom: 30px;
+  }
+
+  .historical h3,
+  .objective h3 {
+    margin-top: 0;
+  }
+
+  .balao2{
+	background: #fff;
+    border: #00a859 3px solid;
+	border-radius: 15px;
+	width: 100%;
+	height: 100%;
+    padding: 10px;
+	position: relative;
+}
+.balao2:after{
+
+	content: "";
+
+	width: 0;
+	height: 0;
+
+	position: absolute;
+
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #00a859;
+	
+	bottom: -20px;
+	left: 20%;
+}
+
+.tags-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 500px;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.tag::before {
+    content: '\27A4'; /* Código Unicode para a seta semelhante à da imagem */
+    color: #00a859;
+    margin-right: 10px;
+}
+
+.content img {
+  padding: 0 15px;
+  max-width: 300px;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+.container-des {
+    margin: 0 auto;
+    background-color: #00a859;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 1140px;
+}
+
+.container-icons {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    gap: 20px;
+  }
+
+  .card-icons {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 340px;
+  }
+
+  .icon {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .description {
+    color: #666;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
+  .button {
+    background-color: #00a859;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .container-school {
+    background-image: url('/assets/img/fundo-escola.jpg');
+    background-size: cover; /* Faz a imagem cobrir toda a div */
+    background-position: center; /* Centraliza a imagem */
+    border-top-left-radius: 400px;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #00a859;
+    color: white;
+    width: 100%; /* Defina uma largura desejada */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    max-width: 320px;
+    height: auto;
+}
+
+button {
+    background-color: #00a859;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007a4d;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.stats {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+}
+
+.contact-section-school {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    width: 500px;
+    position: absolute;
+    top: 50px;
+    position: relative; /* Ou absolute, se necessário */
+    z-index: 5; /* Abaixo do elemento fixo */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.eventos-section {
+  margin-top: 70px;
+  text-align: center; /* Centraliza o texto */
+  padding: 40px;
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+.titulo-pequeno {
+  color: #9b0000; /* Cor do título pequeno */
+  font-size: 18px;
+  margin: 0;
+}
+
+.titulo-principal {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.fa-circle-exclamation {
+  color: #9b0000;
+}
+
+.descricao {
+  color: #333; /* Cor do texto da descrição */
+  margin: 20px 0;
+}
+
+.botao {
+  background-color: #00a859; /* Cor do botão */
+  color: white; /* Cor do texto do botão */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px; /* Bordas arredondadas do botão */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.botao:hover {
+  background-color: #007a4d; /* Cor do botão no hover */
+}
+
+.noticias-section {
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.titulo {
+  font-size: 28px;
+  margin: 0;
+}
+
+.subtitulo {
+  margin: 10px 0 20px;
+  color: #555; /* Cor do texto do subtítulo */
+}
+
+.cartoes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Permite que os cartões se movam para a linha abaixo em telas pequenas */
+}
+
+.cartao {
+  background-color: #f9f9f9; /* Fundo claro para os cartões */
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px; /* Largura fixa dos cartões */
+  margin: 10px;
+}
+
+.cartao img {
+  width: 100%; /* Imagem ocupa toda a largura do cartão */
+  height: 250px; /* Mantém a proporção da imagem */
+}
+
+.op-h3 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.op-p {
+  margin-top: 0;
+}
+
+.info {
+  padding: 15px;
+}
+
+.data {
+  display: block;
+  font-size: 14px;
+  color: #007bff; /* Cor do texto da data */
+  margin-bottom: 5px;
+}
+
+.titulo-noticia {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.descricao {
+  color: #333; /* Cor do texto da descrição */
+}
+
+.botao {
+  background-color: #00a859; /* Cor do botão */
+  color: white; /* Cor do texto do botão */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px; /* Bordas arredondadas do botão */
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.botao:hover {
+  background-color: #007a4d; /* Cor do botão no hover */
+}
+
+.footer {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  background-color: #66D1A2; /* Cor de fundo da barra */
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.informacoes {
+  flex: 1;
+  text-align: left;
+}
+
+.logo {
+  width: 80px; /* Largura do logo */
+  margin-left: 10px;
+}
+
+.horarios {
+  flex: 1;
+  text-align: right; /* Alinhamento à direita */
+}
+
+h3 {
+  margin: 0 0 10px;
+}
+
+.linha-horizontal {
+  height: 1px; /* Altura da linha */
+  background-color: #ccc; /* Cor da linha */
+  margin: 10px 0; /* Espaçamento da linha */
+  width: 43%; /* Largura da linha */
+  margin-left: auto; /* Alinha à direita */
+}
+
+.fechado {
+  color: red; /* Cor para "Fechado" */
+}
+
+hr {
+  width: 92%;
+}
+
+.logo-footer{
+  width: 100px;
+  margin-bottom: 10px;
+  align-items: left;
+}
