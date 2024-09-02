@@ -15,7 +15,7 @@ item2.setAttribute("href", "../pages/project.html");
 let item3 = document.createElement("a");
 item3.setAttribute("href", "../pages/galery.html");
 let item4 = document.createElement("a");
-item4.setAttribute("href", "./assets/pages/unidades.html");
+item4.setAttribute("href", "../pages/news.html");
 let item5 = document.createElement("a");
 item5.setAttribute("href", "../pages/calendar.html");
 
