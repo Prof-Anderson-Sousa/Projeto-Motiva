@@ -4,6 +4,16 @@ ul {
   padding-left: 0;
 }
 
+.trabalhadores {
+  width: 50%;
+}
+
+.projeto-motiva {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 body {
     margin: 0;
     padding: 0;
