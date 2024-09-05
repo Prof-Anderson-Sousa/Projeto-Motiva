@@ -63,7 +63,6 @@
 }
 
 .header {
-    background-color: #00a859;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -83,7 +82,6 @@
 
 .balao2 {
     background: #fff;
-    border: #00a859 3px solid;
     border-radius: 15px;
     width: 94%;
     height: 100%;
@@ -129,7 +127,6 @@
 .card {
     width: 380px;
     height: 200px;
-    background-color: #00a859;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -202,7 +199,6 @@
 
 .h1-top {
     text-align: center;
-    color: #00a859;
     font-size: 26px;
 }
 

@@ -48,7 +48,6 @@
 }
 
 .header {
-    background-color: #00a859;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -89,7 +88,6 @@
 .card {
     width: 380px;
     height: 200px;
-    background-color: #00a859;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

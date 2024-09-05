@@ -43,7 +43,7 @@ body {
 
 .h1-top {
   text-align: center;
-  color: #00a859;
+  color: #61127F;
 }
 
 .containerblur {
@@ -51,7 +51,7 @@ body {
 }
 
 .top-bar {
-    background-color: #00a859;
+    background-color: #61127F;
     color: white;
     text-align: right;
     padding: 0px 10px;
@@ -91,7 +91,7 @@ body {
 }
 
 .navbar ul li a {
-    color: #00a859;
+    color: #61127F;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
@@ -112,7 +112,7 @@ body {
 .card {
     width: 550px;
     height: 250px;
-    background-color: #00a859;
+    background-color: #61127F;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -159,7 +159,7 @@ body {
   
   .item {
     cursor: pointer;
-    background-color: #00a859;
+    background-color: #61127F;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -210,7 +210,7 @@ body {
   }
 
   .header {
-    background-color: #00a859;
+    background-color: #61127F;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -254,7 +254,7 @@ body {
 
   .balao2{
 	background: #fff;
-    border: #00a859 3px solid;
+    border: #61127F 3px solid;
 	border-radius: 15px;
 	width: 100%;
 	height: 100%;
@@ -272,7 +272,7 @@ body {
 
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
-	border-top: 20px solid #00a859;
+	border-top: 20px solid #61127F;
 	
 	bottom: -20px;
 	left: 20%;
@@ -294,7 +294,7 @@ body {
 
 .tag::before {
     content: '\27A4'; /* Código Unicode para a seta semelhante à da imagem */
-    color: #00a859;
+    color: #61127F;
     margin-right: 10px;
 }
 
@@ -307,7 +307,7 @@ body {
 
 .container-des {
     margin: 0 auto;
-    background-color: #00a859;
+    background-color: #61127F;
     color: white;
     padding: 20px;
     border-radius: 20px;
@@ -349,7 +349,7 @@ body {
   }
 
   .button {
-    background-color: #00a859;
+    background-color: #61127F;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -366,7 +366,7 @@ body {
   
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #00a859;
+    background-color: #61127F;
     color: white;
     width: 100%; /* Defina uma largura desejada */
     margin: 0 auto; /* Centraliza horizontalmente */
@@ -384,7 +384,7 @@ body {
 }
 
 button {
-    background-color: #00a859;
+    background-color: #61127F;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -392,8 +392,8 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #007a4d;
+.button:hover {
+    background-color: #8539A3;
 }
 
 h2 {
@@ -461,17 +461,13 @@ h2 {
 }
 
 .botao {
-  background-color: #00a859; /* Cor do botão */
+  background-color: #61127F; /* Cor do botão */
   color: white; /* Cor do texto do botão */
   border: none;
   padding: 10px 20px;
   border-radius: 5px; /* Bordas arredondadas do botão */
   cursor: pointer;
   font-size: 16px;
-}
-
-.botao:hover {
-  background-color: #007a4d; /* Cor do botão no hover */
 }
 
 .noticias-section {
@@ -483,6 +479,7 @@ h2 {
 .titulo {
   font-size: 28px;
   margin: 0;
+  color: #61127F;
 }
 
 .subtitulo {
@@ -540,7 +537,7 @@ h2 {
 }
 
 .botao {
-  background-color: #00a859; /* Cor do botão */
+  background-color: #61127F; /* Cor do botão */
   color: white; /* Cor do texto do botão */
   border: none;
   padding: 10px 20px;
@@ -551,13 +548,13 @@ h2 {
 }
 
 .botao:hover {
-  background-color: #007a4d; /* Cor do botão no hover */
+  background-color: #8539A3; /* Cor do botão no hover */
 }
 
 .footer {
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  background-color: #66D1A2; /* Cor de fundo da barra */
+  background-color: #B56AC0; /* Cor de fundo da barra */
   padding: 20px;
   text-align: center;
 }
