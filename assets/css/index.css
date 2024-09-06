@@ -359,7 +359,7 @@ body {
   }
 
   .container-school {
-    background-image: url('./assets/img/fundo-escola.jpg');
+    background-image: url('../img/fundo-escola.jpg');
     background-size: cover; /* Faz a imagem cobrir toda a div */
     background-position: center; /* Centraliza a imagem */
     border-top-left-radius: 400px;
