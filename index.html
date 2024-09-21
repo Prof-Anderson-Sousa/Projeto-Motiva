@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início | Projeto Motiva</title>
+    <link rel="stylesheet" href="assets/css/form.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/slide.css">
     <link rel="stylesheet" href="assets/css/wave.css">
@@ -15,14 +16,37 @@
     <link rel="stylesheet" href="assets/css/375px.css">
     <link rel="stylesheet" href="assets/css/360px.css">
     <link rel="stylesheet" href="assets/css/menu_responsive.css">
+    <link rel="stylesheet" href="assets/css/city.css">
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+
+    <div id="form-container" class="form-overlay">
+        <div class="form-box">
+            <img src="./assets/img/bolsa.jpg" alt="Ganhe uma bolsa de estudo" class="form-image">
+            <form method="post" action="https://script.google.com/macros/s/AKfycbyjgUUHKgQ94I0gVTxyBaUU9mCTtg6rdNg_wVqbq3GIvhqdUNFHrD3ojsvuW3r8Q9rBew/exec" name="contact-form" id="scholarship-form">
+                <div class="form-group">
+                    <input type="text" name="your-name" id="nome" placeholder="Nome Completo" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="your-number" id="whatsapp" placeholder="Seu Whatsapp" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="your-course" id="curso" placeholder="Exemplo: Inglês" required>
+                </div>
+                <div class="form-actions">
+                    <button type="button" id="fechar-btn" class="btn-fechar">Fechar</button>
+                    <input type="submit" value="Enviar" id="submit" class="btn-enviar">
+                </div>
+            </form>
+        </div>
+    </div>
+
     <div class="containerblur">
         <header>
             <div class="top-bar marquee">
-                <p>Grandes Oportunidades para Jovens das Principais Cidades do Nordeste! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grandes Oportunidades para Jovens das Principais Cidades do Nordeste!</p>
+                <p><b>Atenção:</b> Uso Indevido do Nome do Projeto Motiva no estado do Paraná! &nbsp;Informamos que o Projeto Motiva está sendo utilizado de maneira indevida no estado do Paraná. Qualquer atividade realizada em nome do nosso projeto fora dos canais oficiais não tem nosso respaldo. Pedimos que fiquem atentos a tentativas de golpes ou fraudes. Caso tenha dúvidas ou queira confirmar a veracidade de alguma ação ou contato, por favor, entre em contato conosco pelos nossos canais oficiais.</p>
             </div>
             <div class="header-main">
                 <div class="logo">
@@ -44,7 +68,7 @@
         <div class="slider">
             <div class="slides">
                 <div class="slide">
-                    <img src="./assets/img/banner01.png" alt="Alunos de Informática na Aula">
+                    <img src="./assets/img/banner03.png" alt="Alunos de Informática na Aula">
                     <div class="slide-text">
                         <h2>Aprendizagem e Social é com o Projeto Motiva</h2>
                     </div>
@@ -56,7 +80,7 @@
                     </div>
                 </div>
                 <div class="slide">
-                    <img src="./assets/img/banner03.png" alt="Alunos de Informática na Aula">
+                    <img src="./assets/img/banner01.png" alt="Alunos de Informática na Aula">
                     <div class="slide-text">
                         <h2>Projeto Social em Abreu e Lima/PE contou com mais de 500 pessoas contempladas</h2>
                     </div>
@@ -124,7 +148,7 @@
                 <p>Oferecer aos adolescentes e jovens da faixa etária ampliada a chance de desenvolvimento intelectual e realização pessoal, preparando-os como futuros profissionais e cidadãos. O objetivo é aprimorar sua empregabilidade e facilitar sua inserção no mercado de trabalho.</p>
                 </div>
                 <div class="tags-container">
-                    <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300" class="tag">Criado em 2004</div>
+                    <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300" class="tag">Criado em 2016</div>
                     <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300" class="tag">Acesso ao mundo profissional</div>
                     <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300" class="tag">Estudantes de 14 a 24 anos</div>
                 </div>
@@ -138,13 +162,15 @@
                 <p style="text-align: justify;">Iniciado em 2016, o Projeto Motiva foca na capacitação e desenvolvimento pessoal e profissional de 
                 estudantes, com prioridade para aqueles de famílias de baixa renda. Esta abordagem visa promover a
                 inclusão social de jovens que enfrentam poucas oportunidades, criando uma ponte para um futuro melhor
-                através da inserção no mercado de trabalho. O Projeto Motiva se dedica a orientar os estudantes por
+                através da inserção no mercado de trabalho.<br><br>
+                O Projeto Motiva se dedica a orientar os estudantes por
                 meio de palestras e oportunidades de estágio. Ao longo dos últimos 15 anos, mais de 2 milhões de
                 alunos da rede pública, especialmente aqueles de famílias menos favorecidas, participaram de iniciativas
-                relacionadas à Lei da Aprendizagem. Atualmente, o Projeto Motiva estabelece parcerias com centros educacionais
+                relacionadas à Lei da Aprendizagem.<br><br>
+                Atualmente, o Projeto Motiva estabelece parcerias com centros educacionais
                 para oferecer cursos de aprendizagem em diversas áreas, incluindo serviços administrativos, serviços comerciais,
                 varejo e supermercados, produção industrial e tele serviços. Esses cursos, com duração de até 24 meses, são
-                organizados em módulos que cobrem tópicos específicos para cada área de treinamento. A formação teórica é ministrada
+                organizados em módulos que cobrem tópicos específicos para cada área de treinamento.<br><br> A formação teórica é ministrada
                 por uma equipe de instrutores altamente especializados, que empregam métodos de ensino inovadores e práticos,
                 alinhados com o universo dos jovens. Essa metodologia integra teoria e prática, permitindo um desenvolvimento robusto
                 e um crescimento significativo tanto pessoal quanto profissional. O objetivo do projeto é aproximar os estudantes do
@@ -179,16 +205,16 @@
             </div>
             <div class="content-section">
                 <h2>Oportunidade Para Os Estudantes</h2>
-                <p class="content-p">O Projeto Oportunidade, procura orientar estudantes, promovendo palestras relacionadas a cursos de capacitação e estágios.</p>
+                <p class="content-p">O Projeto Motiva, procura orientar estudantes, promovendo palestras relacionadas a cursos de capacitação e estágios.</p>
                 <div class="stats">
                     <div class="stat-item">
                         <i class="fa-regular fa-lightbulb fa-3x fa-flip" style="--fa-animation-duration: 3s;"></i>
-                        <h3 class="op-h3">2004</h3>
+                        <h3 class="op-h3">2016</h3>
                         <p class="op-p">ano de criação</p>
                     </div>
                     <div class="stat-item">
                         <i class="fa-solid fa-graduation-cap fa-3x fa-flip" style="--fa-animation-duration: 3s;"></i>
-                        <h3 class="op-h3">2 Mi+</h3>
+                        <h3 class="op-h3">28 Mil</h3>
                         <p class="op-p">alunos</p>
                     </div>
                     <div class="stat-item">
@@ -211,13 +237,47 @@
         <div class="eventos-section">
             <h3 class="titulo-pequeno">NOSSOS EVENTOS</h3>
             <h2 class="titulo-principal">Nossos Próximos Eventos</h2>
-            <i class="fa-solid fa-circle-exclamation fa-2x fa-beat-fade" style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;"></i>
-            <p class="descricao">Não hesite, entre em contato conosco para obter mais ajuda e serviços.</p>
-            <a href="https://api.whatsapp.com/send?phone=5581987063035&text=Ol%C3%A1,%20Vim%20pelo%20Projeto%20Motiva%20%F0%9F%93%9A">
-                <button class="botao">Mandar Mensagem</button>
-            </a>
+            <i class="fa-solid fa-circle-exclamation fa-2x fa-beat-fade" style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;" aria-hidden="true"></i>
+            <p class="descricao">Essa semana estamos levando oportunidades para as cidades abaixo</p>
             
+            <!-- Locais dos eventos -->
+            <div class="locais-eventos">
+                <div class="city">
+                    <a class="card card1">
+                        <div class="inner">
+                          <h2 class="title">Abreu e Lima</h2>
+                          <time class="subtitle">Pernambuco</time>
+                        </div>
+                      </a>
+                      
+                      <a class="card card2">
+                        <div class="inner">
+                          <h2 class="title">Jaboatão</h2>
+                          <time class="subtitle">Pernambuco</time>
+                        </div>
+                      </a>
+                      
+                      <a class="card card3">
+                        <div class="inner">
+                          <h2 class="title">Parnamirim</h2>
+                          <time class="subtitle">Rio Grande do Norte</time>
+                        </div>
+                      </a>
+                      
+                      <a class="card card4">
+                        <div class="inner">
+                          <h2 class="title">Natal</h2>
+                          <time class="subtitle">Rio Grande do Norte</time>
+                        </div>
+                      </a>
+                </div>
+            </div>
+        
+            <a href="https://api.whatsapp.com/send?phone=5581987063035&amp;text=Ol%C3%A1,%20Vim%20pelo%20Projeto%20Motiva%20%F0%9F%93%9A">
+                <button class="botao" aria-label="Enviar mensagem pelo WhatsApp">Mandar Mensagem</button>
+            </a>
         </div>
+        
 
         <div id="news" class="noticias-section">
             <h2 class="titulo">Notícias & Blog</h2>
@@ -272,7 +332,7 @@
                 
                 <div class="informacoes">
                     <img class="logo-footer" src="./assets/img/logo.png" alt="Logo" class="logo">
-                    <p>Criado em Agosto de 2004, o programa atende estudantes de 14 a 24 anos, idade limite para o ingresso no programa para acesso ao mundo profissional.</p>
+                    <p>Criado em Janeiro de 2016, o programa atende estudantes de 14 a 24 anos, idade limite para o ingresso no programa para acesso ao mundo profissional.</p>
                 </div>
                 <div class="horarios">
                     <h3><strong>Horários de Atendimento</strong></h3>
@@ -293,6 +353,7 @@
     <script>
         AOS.init();
     </script>
+    <script src="./assets/js/Google Sheet.js"></script>
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/slide.js"></script>
     <script src="https://kit.fontawesome.com/ec4f2758d3.js" crossorigin="anonymous"></script>
