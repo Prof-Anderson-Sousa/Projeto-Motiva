@@ -28,15 +28,15 @@ body {
 
 .marquee p {
   display: inline-block;
-  animation: marquee 13s linear infinite; /* Aplica a animação */
+  animation: marquee 10s linear infinite; /* Aplica a animação */
 }
 
 @keyframes marquee {
   0% {
-    transform: translateX(70%); /* Começa fora da direita */
+    transform: translateX(100%); /* Começa fora da direita */
   }
   100% {
-    transform: translateX(-100%); /* Termina fora da esquerda */
+    transform: translateX(-230%); /* Termina fora da esquerda */
   }
 }
 
