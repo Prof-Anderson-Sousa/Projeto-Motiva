@@ -57,6 +57,16 @@ body {
     box-sizing: border-box; /* Garante que o padding seja contabilizado no tamanho total */
 }
 
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Garante que o padding seja contabilizado no tamanho total */
+}
+
 /* Estilo dos botões */
 .form-actions {
     display: flex;

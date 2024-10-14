@@ -30,10 +30,123 @@
                     <input type="text" name="your-name" id="nome" placeholder="Nome Completo" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" name="your-number" id="whatsapp" placeholder="Seu Whatsapp" required>
+                    <input type="tel" name="your-number" id="whatsapp" placeholder="Seu Whatsapp" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" name="your-course" id="curso" placeholder="Exemplo: Inglês" required>
+                        <select id="curso" name="your-course" placeholder="Exemplo: Inglês" required>
+                            <option value="" disabled selected>Selecione um curso...</option>
+                          <optgroup label="ADMINISTRATIVOS">
+                            <option value="administracao">Administração de empresas - 20 horas</option>
+                            <option value="agente-portaria">Agente de Portaria - 15 horas</option>
+                            <option value="almoxarifado">Almoxarifado - 20 horas</option>
+                            <option value="atendente-farmacia">Atendente de Farmácia - 20 horas</option>
+                            <option value="conhecimentos-bancarios">Conhecimentos Bancários - 20 horas</option>
+                            <option value="contabilidade">Contabilidade - 22 horas</option>
+                            <option value="departamento-pessoal">Departamento Pessoal - 20 horas</option>
+                            <option value="elaboracao-curriculo">Elaboração de Currículo - 3 horas</option>
+                            <option value="empreendedorismo">Empreendedorismo - 15 horas</option>
+                            <option value="gestao-rh">Gestão em RH - 20 horas</option>
+                            <option value="hotelaria-turismo">Hotelaria e Turismo - 30 horas</option>
+                            <option value="instagram-vendas">Instagram para Vendas - 4 horas</option>
+                            <option value="investimento-mercado-financeiro">Investimento mercado financeiro - 20 horas</option>
+                            <option value="logistica">Logística 4.0 - 50 horas</option>
+                            <option value="marketing-digital">Marketing Digital - 20 horas</option>
+                            <option value="matematica-financeira">Matemática financeira - 20 horas</option>
+                            <option value="midias-sociais">Mídias sociais - 4 horas</option>
+                            <option value="operador-caixa">Operador de Caixa - 30 horas</option>
+                            <option value="supervisao-pedagogica">Supervisão Pedagógica - 60 horas</option>
+                            <option value="tecnicas-vendas">Técnicas de Vendas - 20 horas</option>
+                            <option value="telemarketing">Telemarketing - 18 horas</option>
+                            <option value="oratoria">Oratória - 30 horas</option>
+                            <option value="jornalismo">Jornalismo - 75 horas</option>
+                            <option value="corretor-imoveis">Corretor de Imóveis - 60 horas</option>
+                            <option value="estoque-faturamento">Estoque e Faturamento - 40 horas</option>
+                          </optgroup>
+                          <optgroup label="PREPARATÓRIOS">
+                            <option value="artes">Artes - 30 horas</option>
+                            <option value="biologia">Biologia - 40 horas</option>
+                            <option value="educacao-fisica">Educação Física - 25 horas</option>
+                            <option value="filosofia">Filosofia - 15 horas</option>
+                            <option value="fisica">Física - 45 horas</option>
+                            <option value="geografia">Geografia - 70 horas</option>
+                            <option value="historia">História - 80 horas</option>
+                            <option value="matematica">Matemática - 110 horas</option>
+                            <option value="matematica-enem">Matemática para Enem - 45 horas</option>
+                            <option value="portugues">Português - 40 horas</option>
+                            <option value="quimica">Química - 55 horas</option>
+                            <option value="sociologia">Sociologia - 20 horas</option>
+                            <option value="tecnicas-redacao">Técnicas de Redação - 30 horas</option>
+                            <option value="literatura">Literatura - 35 horas</option>
+                          </optgroup>
+                          <optgroup label="DIVERSAS ÁREAS">
+                            <option value="fiscal-loja">Fiscal de Loja - 10 horas</option>
+                            <option value="frentista">Frentista - 40 horas</option>
+                            <option value="manicure-pedicure">Manicure e Pedicure - 50 horas</option>
+                            <option value="maquiagem">Maquiagem - 15 horas</option>
+                            <option value="massagem-modeladora">Massagem Modeladora - 40 horas</option>
+                            <option value="mediador-escolar">Mediador Escolar - 10 horas</option>
+                            <option value="nr-10">NR-10 - 40 horas</option>
+                            <option value="nr-33">NR-33 - 16 horas</option>
+                            <option value="nr-34">NR-34 - 16 horas</option>
+                            <option value="nr-35">NR-35 - 16 horas</option>
+                            <option value="operador-empilhadeira">Operador de Empilhadeira - 30 horas</option>
+                            <option value="pa-carregadeira">Pá Carregadeira - 25 horas</option>
+                            <option value="ponte-rolante">Ponte Rolante - 80 horas</option>
+                            <option value="retroescavadeira">Retroescavadeira - 25 horas</option>
+                            <option value="socorrista-aph">Socorrista APH - 24 horas</option>
+                            <option value="solda-mig-mag">Solda MIG/MAG - 32 horas</option>
+                            <option value="solda-tig">Solda TIG - 30 horas</option>
+                            <option value="tbo">Treinamento Básico Operacional (TBO) - 35 horas</option>
+                          </optgroup>
+                          <optgroup label="INFORMÁTICA">
+                            <option value="3d-studio-max-basico">3D Studio Max Básico - 21 horas</option>
+                            <option value="access-2016">Access 2016 - 20 horas</option>
+                            <option value="after-effects">After Effects - 15 horas</option>
+                            <option value="autocad-2d-3d">AutoCad 2D e 3D - 50 horas</option>
+                            <option value="bitcoin">Bitcoin - 2 horas</option>
+                            <option value="blender-3d">Blender 3D - 22 horas</option>
+                            <option value="canva">Canva - 30 horas</option>
+                            <option value="como-ser-youtuber">Como ser um Youtuber - 4 horas</option>
+                            <option value="corel-draw-x8">Corel Draw X8 - 6 horas</option>
+                            <option value="criacao-app-android-ios">Criação de App Android e iOS - 80 horas</option>
+                            <option value="criacao-game">Criação de Game Profissional - 100 horas</option>
+                            <option value="criacao-loja-virtual">Criação de Loja Virtual - 4 horas</option>
+                            <option value="digitacao-interativa">Digitação Interativa - 15 horas</option>
+                            <option value="dropshipping">Dropshipping - 40 horas</option>
+                            <option value="edicao-video-premiere">Edição de Vídeo Premiere - 13 horas</option>
+                            <option value="excel-basico-avancado">Excel Básico e Avançado - 26 horas</option>
+                            <option value="google-adwords">Google Adwords - 1 hora</option>
+                            <option value="google-drive">Google Drive - 1 hora</option>
+                            <option value="illustrator-2022">Illustrator 2022 - 6 horas</option>
+                            <option value="indesign">InDesign - 20 horas</option>
+                            <option value="introducao-informatica">Introdução a Informática - 1 hora</option>
+                            <option value="javascript">JavaScript - 30 horas</option>
+                            <option value="linux">Linux - 3 horas</option>
+                            <option value="logica-programacao">Lógica de Programação - 10 horas</option>
+                            <option value="manutencao-celular">Manutenção de Celular - 50 horas</option>
+                            <option value="microsoft-word">Microsoft Word - 18 horas</option>
+                            <option value="montagem-manutencao-pc">Montagem e Manutenção de PC - 19 horas</option>
+                            <option value="operador-podcast">Operador de Podcast - 10 horas</option>
+                            <option value="photoshop-cc">PhotoShop CC - 22 horas</option>
+                            <option value="power-bi">Power Bi - 30 horas</option>
+                            <option value="power-point">Power Point - 20 horas</option>
+                            <option value="wordpress">Programação de sites Wordpress - 10 horas</option>
+                            <option value="seguranca-internet">Segurança na Internet - 20 horas</option>
+                            <option value="sketchup">SketchUp - 12 horas</option>
+                            <option value="windows-10">Windows 10 - 22 horas</option>
+                            <option value="windows-11">Windows 11 - 20 horas</option>
+                            <option value="windows-11-kids">Windows 11 kids - 15 horas</option>
+                            <option value="word-kids">Word Kids - 40 horas</option>
+                            <option value="robotica">Robótica - 70 horas</option>
+                            <option value="whatsapp-business">WhatsApp Business - 5 horas</option>
+                          </optgroup>
+                          <optgroup label="IDIOMAS">
+                            <option value="ingles-zero-fluencia">Inglês do Zero a Fluência - 100 horas</option>
+                            <option value="interactive-english">Interactive English - 100 horas</option>
+                            <option value="libras">Libras - 50 horas</option>
+                            <option value="espanhol">Espanhol - 110 horas</option>
+                          </optgroup>
+                        </select>
                 </div>
                 <div class="form-actions">
                     <button type="button" id="fechar-btn" class="btn-fechar">Fechar</button>
