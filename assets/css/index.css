@@ -19,7 +19,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-    background-color: #f2f2f2;
+    background-color: #E8E9E7;
 }
 
 .marquee {
@@ -42,7 +42,7 @@ body {
 
 .h1-top {
   text-align: center;
-  color: #61127F;
+  color: #FFA500;
 }
 
 .containerblur {
@@ -50,9 +50,10 @@ body {
 }
 
 .top-bar {
-    background-color: #61127F;
-    color: white;
+    background-color: #FFA500;
+    color: #000;
     text-align: right;
+    font-weight: 600;
     padding: 0px 10px;
 }
 
@@ -90,7 +91,7 @@ body {
 }
 
 .navbar ul li a {
-    color: #61127F;
+    color: #FFA500;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
@@ -111,7 +112,7 @@ body {
 .card {
     width: 550px;
     height: 250px;
-    background-color: #61127F;
+    background-color: #FFD700;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -158,7 +159,7 @@ body {
   
   .item {
     cursor: pointer;
-    background-color: #61127F;
+    background-color: #FFA500;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -209,7 +210,7 @@ body {
   }
 
   .header {
-    background-color: #61127F;
+    background-color: #FFA500;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -252,27 +253,23 @@ body {
   }
 
   .balao2{
-	background: #fff;
-    border: #61127F 3px solid;
-	border-radius: 15px;
-	width: 100%;
-	height: 100%;
+    background: #fff;
+    border: #FFA500 3px solid;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
     padding: 10px;
-	position: relative;
-}
+    position: relative;
+  }
+
 .balao2:after{
-
 	content: "";
-
 	width: 0;
 	height: 0;
-
 	position: absolute;
-
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
-	border-top: 20px solid #61127F;
-	
+	border-top: 20px solid #FFA500;
 	bottom: -20px;
 	left: 20%;
 }
@@ -293,7 +290,7 @@ body {
 
 .tag::before {
     content: '\27A4'; /* Código Unicode para a seta semelhante à da imagem */
-    color: #61127F;
+    color: #FFA500;
     margin-right: 10px;
 }
 
@@ -306,7 +303,7 @@ body {
 
 .container-des {
     margin: 0 auto;
-    background-color: #61127F;
+    background-color: #FFA500;
     color: white;
     padding: 20px;
     border-radius: 20px;
@@ -348,7 +345,7 @@ body {
   }
 
   .button {
-    background-color: #61127F;
+    background-color: #FFA500;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -358,15 +355,15 @@ body {
   }
 
   .container-school {
-    background-image: url('../img/fundo-escola.jpg');
+    background-image: url('../img/fundo-escola.png');
     background-size: cover; /* Faz a imagem cobrir toda a div */
     background-position: center; /* Centraliza a imagem */
     border-top-left-radius: 400px;
   
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #61127F;
-    color: white;
+    background-color: #FFA500;
+    color: #000;
     width: 100%; /* Defina uma largura desejada */
     margin: 0 auto; /* Centraliza horizontalmente */
 }
@@ -398,7 +395,7 @@ body {
 }
 
 button {
-    background-color: #61127F;
+    background-color: #FFA500;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -431,6 +428,13 @@ h2 {
   align-items: center;
   justify-content: center;
   width: 700px;
+}
+
+.content-p {
+  font-weight: 500;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 
 .contact-section-school {
@@ -475,7 +479,7 @@ h2 {
 }
 
 .botao {
-  background-color: #61127F; /* Cor do botão */
+  background-color: #FFA500; /* Cor do botão */
   color: white; /* Cor do texto do botão */
   border: none;
   padding: 10px 20px;
@@ -493,7 +497,7 @@ h2 {
 .titulo {
   font-size: 28px;
   margin: 0;
-  color: #61127F;
+  color: #FFA500;
 }
 
 .subtitulo {
@@ -527,6 +531,9 @@ h2 {
 
 .op-p {
   margin-top: 0;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 
 .info {
@@ -551,7 +558,7 @@ h2 {
 }
 
 .botao {
-  background-color: #61127F; /* Cor do botão */
+  background-color: #FFA500; /* Cor do botão */
   color: white; /* Cor do texto do botão */
   border: none;
   padding: 10px 20px;
@@ -568,7 +575,7 @@ h2 {
 .footer {
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  background-color: #B56AC0; /* Cor de fundo da barra */
+  background-color: #FFD700; /* Cor de fundo da barra */
   padding: 20px;
   text-align: center;
 }
